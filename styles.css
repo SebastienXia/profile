@@ -111,10 +111,10 @@ body {
 
 .contenaire_1 {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
-    background-image: url(https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif);
+    background-image: url(https://media.tenor.com/RlEQW27o7dAAAAAC/donut-code.gif);
     background-size: cover;
     align-items: center;
 }
