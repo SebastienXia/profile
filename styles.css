@@ -85,7 +85,6 @@ body {
     .box_contenanire_2_text {
         font-size: 10px;
     }
-
 }
 
 @media screen  and (max-width: 720px) {
@@ -106,17 +105,35 @@ body {
         height: 35px;
     }
 
+    .contenaire_projects {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenaire_projects_2 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
 }
 /* Partie contenaire_1 */
 
 .contenaire_1 {
     width: 100%;
-    height: 700px;
+    height: 750px;
     display: flex;
     justify-content: center;
     background-image: url(https://media.tenor.com/RlEQW27o7dAAAAAC/donut-code.gif);
-    background-size: cover;
+    background-size: 1000px;
+    background-repeat: no-repeat;
     align-items: center;
+    background-position: left;
 }
 
 .box_contenaire_1 {
@@ -145,7 +162,7 @@ body {
 /* Partie contenaire_2 */
 
 .contenaire_2 {
-    background-color: #191C21;
+    background-color: #24232324;
     width: 100%;
     height: 850px;
     display: flex;
@@ -173,7 +190,11 @@ body {
     height: 270px;
     width: 270px;
     border-radius: 50%;
-    box-shadow: 3px 3px 5px #FFFFFF;
+    transition: all 1s ease;
+}
+
+.pdp:hover {
+    rotate: 90deg;
 }
 
 .box_contenanire_2_text {
@@ -200,9 +221,9 @@ body {
 /* Partie contenaire 3*/
 
 .contenaire_3 {
-    background-color: #3c4045;
+    background-color: #FFFFFF;
     width: 100%;
-    height: 450px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,13 +232,55 @@ body {
 .contenaire_3 h2 {
     margin-top: 30px;
     font-size: 2em;
-    color: #FFFFFF;
+    color: #000000;
 }
 
-.contenaire_3 p {
-    color: #FFFFFF;
+.contenaire_projects {
+    height: auto;
+    width: 750px;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
+.contenaire_projects_2 {
+    height: auto;
+    width: 750px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenaire_content_project {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    border: #1F1F1F solid 1px;
+}
+
+.contenaire_3 img {
+    width: 350px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.date {
+    margin-left: 2px;
+}
+
+.text_project {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.date {
+    opacity: 0.4;;
+}
 /* Partie contenaire 4*/
 
 .contenaire_4 {
@@ -238,8 +301,8 @@ body {
 .contenaire_social {
     background-color: #3c404526;
     border-radius: 50px;
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 70px;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -248,8 +311,8 @@ body {
 
 .contenaire_social img {
     margin: 0 10px 0 10px;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     transform: scale(1);
     transition: all 1s ease;
     transition-property: all;
