@@ -149,7 +149,7 @@ body::-webkit-scrollbar-thumb {
     background-size: 1000px;
     background-repeat: no-repeat;
     align-items: center;
-    background-position: left;
+    background-position: center;
 }
 
 .box_contenaire_1 {
@@ -178,9 +178,9 @@ body::-webkit-scrollbar-thumb {
 /* Partie contenaire_2 */
 
 .contenaire_2 {
-    background-color: #24232324;
+    background-color: #191c213c;
     width: 100%;
-    height: 850px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,6 +229,7 @@ body::-webkit-scrollbar-thumb {
 .certificate img {
     margin-top: 30px;
     width: 325px;
+    display: flex;
     transform: scale(1);
     transition: all 1s ease;
     transition-property: all;
@@ -275,6 +276,13 @@ body::-webkit-scrollbar-thumb {
     height: 300px;
     border-radius: 10px;
     border: #1F1F1F solid 1px;
+    transform: scale(1);
+    transition: all 1s ease;
+    transition-property: all;
+}
+
+.contenaire_content_project:hover {
+    transform: scale(1.02);
 }
 
 .contenaire_3 img {
@@ -300,7 +308,7 @@ body::-webkit-scrollbar-thumb {
 /* Partie contenaire 4*/
 
 .contenaire_4 {
-    background-color: #191C21;
+    background-color: #191c213c;
     width: 100%;
     height: 250px;
     display: flex;
