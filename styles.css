@@ -334,8 +334,8 @@ body::-webkit-scrollbar-thumb {
 
 .contenaire_social img {
     margin: 0 10px 0 10px;
-    width: 45px;
-    height: 45px;
+    width: 38px;
+    height: 38px;
     transform: scale(1);
     transition: all 1s ease;
     transition-property: all;
