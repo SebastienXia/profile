@@ -114,11 +114,11 @@ body::-webkit-scrollbar-thumb {
     }
 
     .box_contenanire_2_text {
-        font-size: 7px;
+        font-size: 10px;
     }
     .contenaire_social img {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 
     .contenaire_projects {
@@ -214,9 +214,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .box_contenanire_2_text {
-    border-left: 5px solid #FFFFFF;
-    margin: 50px 0 0 0;
+    margin-top: 15px;
 }
+
 
 .box_contenanire_2_text p{
     margin-left: 15px;
@@ -228,7 +228,7 @@ body::-webkit-scrollbar-thumb {
 
 .certificate img {
     margin-top: 30px;
-    width: 325px;
+    width: 300px;
     display: flex;
     transform: scale(1);
     transition: all 1s ease;
